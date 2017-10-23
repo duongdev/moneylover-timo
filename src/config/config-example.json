@@ -1,0 +1,15 @@
+{
+  "timo": {
+    "username": "",
+    "password": "",
+    "maxTransactions": 20
+  },
+
+  "moneyLover": {
+    "email": "",
+    "password": "",
+    "walletId": ""
+  },
+
+  "cronJob": "*/5 * * * *"
+}

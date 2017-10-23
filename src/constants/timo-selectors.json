@@ -1,0 +1,9 @@
+{
+  "FORM_LOGIN": ".right-login",
+  "INPUT_USERNAME": "input[name=username]",
+  "INPUT_PASSWORD": ".form-pw > input",
+  "BUTTON_LOGIN_BTN": "#loginBtn",
+
+  "TXT_ACCOUNT_NUMBER": "span[ng-bind=spendAccountNumber]",
+  "TRANSACTION_LIST": ".gs-list.ng-scope"
+}

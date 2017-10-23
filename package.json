@@ -4,7 +4,8 @@
   "description": "Auto update Timo budget to Money Lover",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cross-env NODE_PATH=./src babel-node ./src/main.js"
   },
   "repository": {
     "type": "git",
@@ -28,11 +29,14 @@
     "cross-env": "^5.1.0",
     "debug": "^3.1.0",
     "moment": "^2.19.1",
+    "node-schedule": "^1.2.5",
+    "numeral": "^2.0.6",
     "puppeteer": "^0.12.0"
   },
   "devDependencies": {
     "babel-eslint": "^8.0.1",
     "babel-plugin-transform-async-to-generator": "^6.24.1",
+    "babel-plugin-transform-export-extensions": "^6.22.0",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-preset-env": "^1.6.1",
     "eslint": "^4.9.0",

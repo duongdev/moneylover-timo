@@ -1,0 +1,14 @@
+{
+  "INPUT_LOGIN_EMAIL": "form input[type=text]",
+  "INPUT_LOGIN_PASSWORD": "form input[type=password]",
+
+  "BUTTON_ADD_TRAN": ".transaction-button button",
+  "TXT_ACCOUNT_INFO": ".account-info",
+  "TXT_WALLET_NAME": ".wallet-name",
+  "DIALOG_ADD_TRAN": ".dialog-transaction",
+  "INPUT_TRAN_CAT": ".inp-cateory",
+  "BUTTON_ADD_TRAN_CAT_TABS": ".category-tabs button",
+  "BUTTON_ADD_TRAN_CAT_ITEMS": ".category-gird > div > div > div > div",
+  "INPUT_ADD_TRAN_AMOUNT": "#input-amount",
+  "INPUT_ADD_TRAN_NOTE": "#input-note"
+}
