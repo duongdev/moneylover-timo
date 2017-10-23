@@ -1,0 +1,42 @@
+{
+  "name": "moneylover-timo",
+  "version": "0.0.1",
+  "description": "Auto update Timo budget to Money Lover",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/duongdev/moneylover-timo.git"
+  },
+  "keywords": [
+    "timo",
+    "moneylover",
+    "nodejs",
+    "banking",
+    "budget"
+  ],
+  "author": "Duong Do (@duongdev)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/duongdev/moneylover-timo/issues"
+  },
+  "homepage": "https://github.com/duongdev/moneylover-timo#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "cross-env": "^5.1.0",
+    "debug": "^3.1.0",
+    "moment": "^2.19.1",
+    "puppeteer": "^0.12.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.0.1",
+    "babel-plugin-transform-async-to-generator": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "eslint": "^4.9.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint_d": "^5.1.0"
+  }
+}
