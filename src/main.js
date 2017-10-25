@@ -83,4 +83,5 @@ const job = async () => {
   await MoneyLoverApp();
 };
 
-schedule.scheduleJob(config.cronJob, job);
+if (process.env.NO_JOB) job();
+else schedule.scheduleJob(config.cronJob, job);
