@@ -3,6 +3,7 @@ import fs from 'fs';
 import path from 'path';
 import puppeteer from 'puppeteer';
 import schedule from 'node-schedule';
+import moment from 'moment';
 import config from 'config';
 
 import * as Timo from 'scrappers/timo-scrapper';
@@ -79,8 +80,11 @@ const MoneyLoverApp = async () => { // eslint-disable-line no-unused-vars
 };
 
 const job = async () => {
+  const startAt = moment();
+  __('Job started at %s', moment().format('HH:mm:ss DD/MM/YYYY'));
   await TimoApp();
   await MoneyLoverApp();
+  __('Job done after %ss at %s', moment().diff(startAt, 'seconds') , moment().format('HH:mm:ss DD/MM/YYYY'));
 };
 
 if (process.env.NO_JOB) job();
