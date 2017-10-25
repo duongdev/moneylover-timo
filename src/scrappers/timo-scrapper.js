@@ -21,7 +21,7 @@ export const login = async (page) => {
   __('Hit Login button')
   await page.click(selectors.BUTTON_LOGIN_BTN);
   await page.waitFor(selectors.TXT_ACCOUNT_NUMBER);
-  await page.waitFor(2000);
+  await page.waitFor('.username');
 
   const account = await page.evaluate(() => {
     return {
